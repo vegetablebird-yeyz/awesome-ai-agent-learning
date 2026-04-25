@@ -54,21 +54,22 @@
 | 第6章 | [让 Agent 使用工具](docs/06-agent-tools/README.md) | Function Calling、自定义工具、工具链 | ✅ |
 | 第7章 | [让 Agent 学会规划](docs/07-agent-planning/README.md) | Plan-and-Solve、反思机制、自我纠错 | 🚧 |
 
-### 第三部分：框架篇 —— 主流框架实战
+### 第三部分：进阶篇 —— Agent 行为工程与框架实战
 
 | 章节 | 标题 | 核心内容 | 状态 |
 |------|------|----------|------|
-| 第8章 | [LangChain 快速上手](docs/08-langchain/README.md) | Chain、Agent、Memory、Tool 集成 | ✅ |
-| 第9章 | [LangGraph 状态机](docs/09-langgraph/README.md) | 图结构、状态管理、人机协作 | 🚧 |
-| 第10章 | [Dify 可视化构建](docs/10-dify/README.md) | 低代码 Agent、工作流编排 | 🚧 |
+| 第8章 | [Agent 行为工程](docs/08-agent-behavior-engineering/README.md) | 技能即代码、反合理化、门控系统、子代理架构、说服心理学 | ✅ |
+| 第9章 | [LangChain 快速上手](docs/09-langchain/README.md) | Chain、Agent、Memory、Tool 集成 | 🚧 |
+| 第10章 | [LangGraph 状态机](docs/10-langgraph/README.md) | 图结构、状态管理、人机协作 | 🚧 |
+| 第11章 | [Dify 可视化构建](docs/11-dify/README.md) | 低代码 Agent、工作流编排 | 🚧 |
 
 ### 第四部分：实战篇 —— 综合项目
 
 | 章节 | 标题 | 核心内容 | 状态 |
 |------|------|----------|------|
-| 第11章 | [RAG 知识库 Agent](docs/11-rag-agent/README.md) | 文档解析、向量检索、知识问答 | 🚧 |
-| 第12章 | [多 Agent 协作系统](docs/12-multi-agent/README.md) | Agent 间通信、任务分配、协作模式 | 🚧 |
-| 毕业项目 | [智能研究助手](docs/13-capstone/README.md) | 综合运用所有技术，构建完整 Agent 应用 | 🚧 |
+| 第12章 | [RAG 知识库 Agent](docs/12-rag-agent/README.md) | 文档解析、向量检索、知识问答 | 🚧 |
+| 第13章 | [多 Agent 协作系统](docs/13-multi-agent/README.md) | Agent 间通信、任务分配、协作模式 | 🚧 |
+| 毕业项目 | [智能研究助手](docs/14-capstone/README.md) | 综合运用所有技术，构建完整 Agent 应用 | 🚧 |
 
 > ✅ = 已完成 | 🚧 = 编写中 | ⏳ = 计划中
 
