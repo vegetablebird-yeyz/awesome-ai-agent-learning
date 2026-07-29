@@ -52,24 +52,24 @@
 | 第4章 | [手写第一个 Agent](docs/04-first-agent/README.md) | 基础 LLM 调用 → 添加工具 → ReAct 循环 | ✅ |
 | 第5章 | [让 Agent 拥有记忆](docs/05-agent-memory/README.md) | 短期记忆、长期记忆、上下文管理 | ✅ |
 | 第6章 | [让 Agent 使用工具](docs/06-agent-tools/README.md) | Function Calling、自定义工具、工具链 | ✅ |
-| 第7章 | [让 Agent 学会规划](docs/07-agent-planning/README.md) | Plan-and-Solve、反思机制、自我纠错 | 🚧 |
+| 第7章 | [让 Agent 学会规划](docs/07-agent-planning/README.md) | Plan-and-Solve、反思机制、自我纠错 | ✅ |
 
 ### 第三部分：进阶篇 —— Agent 行为工程与框架实战
 
 | 章节 | 标题 | 核心内容 | 状态 |
 |------|------|----------|------|
 | 第8章 | [Agent 行为工程](docs/08-agent-behavior-engineering/README.md) | 技能即代码、反合理化、门控系统、子代理架构、说服心理学 | ✅ |
-| 第9章 | [LangChain 快速上手](docs/09-langchain/README.md) | Chain、Agent、Memory、Tool 集成 | 🚧 |
-| 第10章 | [LangGraph 状态机](docs/10-langgraph/README.md) | 图结构、状态管理、人机协作 | 🚧 |
-| 第11章 | [Dify 可视化构建](docs/11-dify/README.md) | 低代码 Agent、工作流编排 | 🚧 |
+| 第9章 | [LangChain 快速上手](docs/09-langchain/README.md) | LCEL、Prompt、模型与 Tool 集成 | ✅ |
+| 第10章 | [LangGraph 状态机](docs/10-langgraph/README.md) | 图结构、状态管理、人机协作 | ✅ |
+| 第11章 | [Dify 可视化构建](docs/11-dify/README.md) | 低代码 Agent、工作流编排与发布 | ✅ |
 
 ### 第四部分：实战篇 —— 综合项目
 
 | 章节 | 标题 | 核心内容 | 状态 |
 |------|------|----------|------|
-| 第12章 | [RAG 知识库 Agent](docs/12-rag-agent/README.md) | 文档解析、向量检索、知识问答 | 🚧 |
-| 第13章 | [多 Agent 协作系统](docs/13-multi-agent/README.md) | Agent 间通信、任务分配、协作模式 | 🚧 |
-| 毕业项目 | [智能研究助手](docs/14-capstone/README.md) | 综合运用所有技术，构建完整 Agent 应用 | 🚧 |
+| 第12章 | [RAG 知识库 Agent](docs/12-rag-agent/README.md) | 文档切分、检索、引用与评估 | ✅ |
+| 第13章 | [多 Agent 协作系统](docs/13-multi-agent/README.md) | Agent 间通信、任务分配、协作模式 | ✅ |
+| 第14章 | [毕业项目：智能研究助手](docs/14-capstone/README.md) | 综合运用 RAG、多 Agent 与安全审查 | ✅ |
 
 > ✅ = 已完成 | 🚧 = 编写中 | ⏳ = 计划中
 
@@ -91,15 +91,18 @@ git clone https://github.com/2182977liu-bit/awesome-ai-agent-learning.git
 cd awesome-ai-agent-learning
 
 # 2. 安装依赖
+python3 -m venv .venv
+source .venv/bin/activate
 pip install -r requirements.txt
 
-# 3. 配置 API Key（支持 OpenAI / DeepSeek / 通义千问等）
-export API_KEY="your-api-key"
-export BASE_URL="https://api.openai.com/v1"
-export MODEL="gpt-4o-mini"
+# 3. 按需配置 API Key（离线示例不需要）
+cp .env.example .env
+# 编辑 .env，支持 OpenAI / DeepSeek / 通义千问等兼容接口
 
 # 4. 开始学习！从第1章开始
 ```
+
+第9—14章的独立源码、依赖说明和运行命令集中在 [`examples/README.md`](examples/README.md)。其中 LangGraph、RAG、多 Agent 和毕业项目示例可以离线运行。
 
 ## 推荐学习资源
 

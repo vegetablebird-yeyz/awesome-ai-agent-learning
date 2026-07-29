@@ -910,4 +910,4 @@ def search(query: str) -> str:
 
 > **作者**：青松与桑叶
 > **下一章**：[第5章：让 Agent 拥有记忆](../05-agent-memory/README.md)
-> **上一章**：[第3章：LLM 入门](../03-llm-basics/README.md)
+> **上一章**：[第3章：Agent 的核心组件](../03-agent-components/README.md)

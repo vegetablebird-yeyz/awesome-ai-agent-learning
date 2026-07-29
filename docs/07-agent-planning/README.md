@@ -843,16 +843,16 @@ Level 3：Plan-and-Solve + Reflection（本章 7.3 节组合）
 - 让 Agent 使用各种工具（第6章）
 - 让 Agent 学会规划和反思（第7章）
 
-接下来，我们将进入 **第三部分：框架篇**。
+接下来，我们将进入 **第三部分：进阶篇**。
 
-在 **第8章：LangChain 快速上手** 中，我们将：
-- 学习 LangChain 框架的基本用法
-- 用 LangChain 快速构建 Agent
-- 对比"手写 Agent"和"框架 Agent"的优劣
-- 学习如何在框架中自定义工具和记忆
+在 **第8章：Agent 行为工程** 中，我们将：
+- 学习如何把行为规范变成可测试的工程约束
+- 用门控机制阻止 Agent 跳过关键步骤
+- 通过子代理隔离实现与审查上下文
+- 识别并封堵 Agent 的合理化借口
 
-有了前面的基础，学框架会非常轻松 —— 因为你已经理解了底层原理。
+学完行为工程后，我们再进入 LangChain、LangGraph 和 Dify 框架实战。
 
 ---
 
-> 上一篇：[第6章：让 Agent 使用工具](../06-agent-tools/README.md) | 下一篇：[第8章：LangChain 快速上手](../08-langchain/README.md)
+> 上一篇：[第6章：让 Agent 使用工具](../06-agent-tools/README.md) | 下一篇：[第8章：Agent 行为工程](../08-agent-behavior-engineering/README.md)

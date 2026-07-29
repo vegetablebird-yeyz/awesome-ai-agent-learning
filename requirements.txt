@@ -1,0 +1,6 @@
+# 全书示例的基础依赖；第9—14章与 examples/requirements.txt 保持一致。
+openai>=1.40,<3
+python-dotenv>=1.0,<2
+langchain-core>=0.3,<2
+langchain-openai>=0.2,<2
+langgraph>=0.2,<2
