@@ -1200,10 +1200,17 @@ YOU MUST NOT 直接修改代码。
 
 ### 下一章预告
 
-在下一章中，我们将学习 **Agent 的多模态能力** —— 如何让 Agent 不仅处理文字，还能理解图片、音频和视频。这将大大扩展 Agent 的应用场景。
+在下一章中，我们将正式进入框架实战，学习 **LangChain** 是如何把我们前面手写过的 Prompt、工具、链路和 Agent 组件工程化封装起来的。
+
+在 **第9章：LangChain 快速上手** 中，我们会学习：
+
+- 如何用 LangChain 快速调用模型和管理 Prompt
+- 如何把工具注册进框架，构建一个可运行的 Agent
+- Chain 和 Agent 的区别到底是什么
+- 为什么"先懂原理，再上框架"会让你调试时轻松很多
 
 ---
 
 > 上一章：[第7章：让 Agent 学会规划](../07-agent-planning/README.md)
 >
-> 下一章：[第9章：Agent 的多模态能力](../09-agent-multimodal/README.md)（敬请期待）
+> 下一章：[第9章：LangChain 快速上手](../09-langchain/README.md)

@@ -845,14 +845,14 @@ Level 3：Plan-and-Solve + Reflection（本章 7.3 节组合）
 
 接下来，我们将进入 **第三部分：框架篇**。
 
-在 **第8章：LangChain 快速上手** 中，我们将：
-- 学习 LangChain 框架的基本用法
-- 用 LangChain 快速构建 Agent
-- 对比"手写 Agent"和"框架 Agent"的优劣
-- 学习如何在框架中自定义工具和记忆
+在 **第8章：Agent 行为工程** 中，我们将：
+- 学习为什么 Agent 明明"听懂了"规则，却仍然会绕开规则
+- 理解技能即代码、反合理化、门控系统等关键思想
+- 学会用工程方法约束 Agent 的行为，而不是只靠提示词许愿
+- 为后续框架篇和实战篇打下更稳的系统设计基础
 
 有了前面的基础，学框架会非常轻松 —— 因为你已经理解了底层原理。
 
 ---
 
-> 上一篇：[第6章：让 Agent 使用工具](../06-agent-tools/README.md) | 下一篇：[第8章：LangChain 快速上手](../08-langchain/README.md)
+> 上一篇：[第6章：让 Agent 使用工具](../06-agent-tools/README.md) | 下一篇：[第8章：Agent 行为工程](../08-agent-behavior-engineering/README.md)
